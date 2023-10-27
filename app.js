@@ -64,7 +64,7 @@ Null (sí está definido pero no hay nada)
 
 //Arrays - vectores - conjunto de datos y pueden ser diferente tipo (inician en posición 0)
 
-let frutas = ['pera', 'manzana', 'platano', null];
+/*let frutas = ['pera', 'manzana', 'platano', null];
 let numeros = ['cinco', 6, 23, 'veinte'];
 
 //Objetos
@@ -95,4 +95,12 @@ let or = (numero1 >10 || numero2 >10);
 //NOT O NEGACIÓN convertir a lo contrario
 
 let negacion =!(numero1 >10); true
-//Pokeapi es un servicio de backend
+//Pokeapi es un servicio de backend */
+
+let edad = prompt("Ingresa tu edad");
+if (edad >= 18) { 
+   let nombre = prompt("Ingrese su nombre y su apellido");
+    console.log("¡Hola " + nombre + " ¡");
+} else {
+    console.log("Eres menor de edad");
+}
