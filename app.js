@@ -100,7 +100,7 @@ let negacion =!(numero1 >10); true
 let edad = prompt("Ingresa tu edad");
 if (edad >= 18) { 
    let nombre = prompt("Ingrese su nombre y su apellido");
-    console.log("¡Hola " + nombre + " ¡");
+    document.write("¡Hola " + nombre + "!");
 } else {
-    console.log("Eres menor de edad");
+    document.write("Eres menor de edad");
 }
